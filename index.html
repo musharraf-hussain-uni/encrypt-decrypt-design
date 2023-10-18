@@ -27,20 +27,22 @@
             <textarea placeholder="Type a Message yo want to Encrypt" name="" id="txtMsg" cols="30"
                 rows="10"></textarea>
             <h5>2. Set a Password</h5>
-            <input type="password" name="" id="password">
+            <input type="password" placeholder="eg. 123 or special character" name="" id="password">
             <h5>.3 Encrypted Message</h5>
             <button id="encrypt-btn"><span><img src="/lock-line.png" alt=""></span>
                 Encrypt Text</button>
         </div>
         <div id="decryption">
             <h5>1. Paste encrypted Emojis</h5>
-            <textarea placeholder="Type a Message yo want to Encrypt" name="" id="" cols="30" rows="10"></textarea>
+            <textarea placeholder="Type a Message yo want to Encrypt" name="" id="emojiMsg" cols="30"
+                rows="10"></textarea>
             <h5>2. Type a Password</h5>
-            <input type="password" name="" id="finalpassword">
+            <input type="password" placeholder="enter encrypted key password" name="" id="finalPassword">
             <h5>.3 Decrypt Emojis</h5>
             <button id="encrypt-btn"><span><img src="/lock-unlock-line.png" alt=""></span>
                 Decrypt Emojis</button>
         </div>
+        <div id="result"></div>
     </div>
     <script type="module" src="/script.js"></script>
 </body>
